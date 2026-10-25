@@ -1,0 +1,5 @@
+import Link from "next/link";
+
+export default function Footer() {
+  return <footer className="footer"><div className="shell footer-inner"><div><Link className="logo footer-logo" href="/">sela</Link><p>Studio kreatif untuk ide<br />yang tidak biasa.</p></div><div className="footer-links"><Link href="/about">About</Link><Link href="/services">Services</Link><Link href="/work">Work</Link><Link href="/contact">Contact</Link></div><p className="footer-note">2024 Sela Studio<br />Jakarta, Indonesia</p></div></footer>;
+}
